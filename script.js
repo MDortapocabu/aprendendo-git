@@ -24,3 +24,13 @@ if (imc < 18.5) {
  document.getElementById("resultado").textContext += imc
 }
 
+let cores = ["Vermelho", "Azul", "Roxo", "Preto"]
+let corselect = cores[0,1,2,3]
+console.log(corselect)
+console.log(cores.length)
+console.log(cores[cores.length-1])
+let pessoa = {
+    nome = "Pocabu";
+    idade = 17;
+}
+console.log(`{Nome: ${pessoa.nome}, Idade: ${pessoa.idade}`)
